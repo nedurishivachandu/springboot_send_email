@@ -11,4 +11,10 @@ public class EmailController {
         return "Email sent";
     }
 
+    @GetMapping("/emailRequest")
+    public String emailRequest(){
+        return "Email Request sent";
+    }
+
+
 }
